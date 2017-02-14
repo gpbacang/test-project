@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+$theme-color: #F8F8F8;
+$border-color: #7184B3;
+$font-color: #133382;
+$buttons: #133382;
+$logo-border: #FC1E2C;
+$blue: #1c67a1;
+$darken-buttons: darken($buttons, 10%);
+$default-font: 'Roboto', sans-serif;
+
+#wait-page{
+  width: 1707px;
+  height: 1067px;
+  background-color: $theme-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  & > div:first-child{
+    width: 600px;
+    height: 600px;
+    // background-color: $buttons;
+    border-radius: 50%;
+    border: 15px solid $buttons;
+    -webkit-animation: waiting 2.5s infinite ease-in-out;
+    animation: waiting 2.5s infinite ease-in-out;
+  }
+
+  & > div:last-child{
+    font-family: $default-font;
+    font-size: 120px;
+    font-weight: 600;
+    color: $buttons;
+    margin-top: 20px;
+  }
+}
+
+@keyframes waiting {
+  0%{
+    background-color: $buttons;
+    transform: scale(0.8);
+  }
+  50%{
+    background-color: $theme-color;
+    transform: scale(1);
+  }
+  100%{
+    background-color: $buttons;
+    transform: scale(0.8);
+  }
+}

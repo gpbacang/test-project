@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+#wait-page {
+  width: 1707px;
+  height: 1067px;
+  background-color: #F8F8F8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  #wait-page > div:first-child {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 15px solid #133382;
+    -webkit-animation: waiting 2.5s infinite ease-in-out;
+    animation: waiting 2.5s infinite ease-in-out; }
+  #wait-page > div:last-child {
+    font-family: "Roboto", sans-serif;
+    font-size: 120px;
+    font-weight: 600;
+    color: #133382;
+    margin-top: 20px; }
+
+@keyframes waiting {
+  0% {
+    background-color: #133382;
+    transform: scale(0.8); }
+  50% {
+    background-color: #F8F8F8;
+    transform: scale(1); }
+  100% {
+    background-color: #133382;
+    transform: scale(0.8); } }
+
+/*# sourceMappingURL=wait-page.component.css.map */
