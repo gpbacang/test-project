@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'axa-root',
   templateUrl: './app.component.html',
   styles: [`
-      #container{
+      .container{
         width: 1707px;
         height: 1067px;
         background-color: #F8F8F8;
@@ -12,5 +12,4 @@ import { Component } from '@angular/core';
     `]
 })
 export class AppComponent {
-  title = 'axa works!';
 }

@@ -12,6 +12,4 @@ export class TitleComponent implements OnInit {
   ngOnInit() {
   }
 
-  title="this is the title";
-
 }
