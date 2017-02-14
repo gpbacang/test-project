@@ -1,0 +1,29 @@
+// $theme-color: #2D2E33;
+$theme-color: #F8F8F8;
+$border-color: #7184B3;
+$font-color: #133382;
+$buttons: #133382;
+$logo-border: #FC1E2C;
+// $font-color: #ACACAC;
+$blue: #1c67a1;
+$darken-buttons: darken($buttons, 10%);
+// $theme-color: #F3F3F3;
+// $font-color: darken(#ACACAC, 20%);
+$default-font: 'OpenSans';
+$light-font: 'OpenSans-Light';
+$bold-font: 'OpenSans-Bold';
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
