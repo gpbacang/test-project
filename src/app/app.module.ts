@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { TitleComponent } from './title/title.component';
 import { WaitPageComponent } from './wait-page/wait-page.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MainPageComponent } from './main-page/main-page.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
