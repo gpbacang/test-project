@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { TitleComponent } from './title/title.component';
 import { WaitPageComponent } from './wait-page/wait-page.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TitleComponent,
-    WaitPageComponent
+    WaitPageComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
